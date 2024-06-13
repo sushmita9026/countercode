@@ -1,0 +1,46 @@
+*{
+               margin: 0;
+              padding: 0;
+              box-sizing:border-box;
+              }
+              body{
+                background-color: rgb(142, 186, 188);
+              }
+              .counter{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              font-size: 45px;
+              margin-top: 20%;
+              }
+              
+              .butto,button{
+               display: flex;
+              justify-content: center; 
+              margin: 10px; 
+              font-size: 30px;  
+              border-radius: 10px;  
+              padding: 15px;
+              }
+              #decrease{
+              background-color: black;
+              color: red;
+              }
+              #decrease:hover{
+               color: blue;
+              }
+              #reset{
+               background-color: black;
+               color: red;
+              
+               }
+               #reset:hover{
+              color:chartreuse;
+               }
+               #increase{
+               background-color:black;
+               color: red;
+                }
+                #increase:hover{
+               color: goldenrod;
+              }
